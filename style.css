@@ -102,3 +102,9 @@ ul li a:hover {
     text-align: right;
     margin-top: 20px;
 }
+@media (max-width: 400px){
+    #container{
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+}

@@ -1,0 +1,104 @@
+/* style.css */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f4f4f9;
+    color: #333;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+#container {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+    max-width: 400px;
+    width: 100%;
+}
+h3 {
+    text-align: center;
+    margin-bottom: 20px;
+    font-size: 24px;
+    color: #007bff;
+    font-weight: bold;
+}
+
+input[type="text"], input[type="number"] {
+    width: calc(100% - 24px);
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    font-size: 16px;
+    outline: none;
+    transition: border-color 0.3s;
+}
+
+input[type="text"]:focus, input[type="number"]:focus {
+    border-color: #007bff;
+}
+
+button {
+    width: 100%;
+    padding: 10px;
+    background-color: #007bff;
+    border: none;
+    border-radius: 5px;
+    color: #fff;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+ul {
+    list-style: none;
+    margin-top: 20px;
+}
+
+ul li {
+    font-size: 12px;
+    background-color: #f9f9f9;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    transition: background-color 0.3s;
+}
+
+ul li:hover {
+    background-color: #f1f1f1;
+}
+
+ul li a {
+    color: #ff5c5c;
+    text-decoration: none;
+    font-weight: bold;
+    margin-left: 10px;
+    cursor: pointer;
+}
+
+ul li a:hover {
+    text-decoration: underline;
+}
+
+#totalCompra {
+    font-size: 18px;
+    color: #333;
+    text-align: right;
+    margin-top: 20px;
+}
